@@ -17,7 +17,7 @@ from modules.email_sender import send_email_with_attachment
 # Imports from Notifications Module
 from modules.database import create_tables
 from modules.notifications_service import (
-    create_notification, get_all_notifications, resolve_notification, 
+    create_notification, get_all_notifications, resolve_notification,
     resolve_all_notifications_by_type, process_new_order_and_generate_alerts,
     test_email_configuration, create_deadline_notification_with_email
 )
@@ -70,7 +70,7 @@ def generate_and_send_report(report_data):
         save_reports(reports)
 
 # --- Reporting Module Endpoints ---
-@app.route('/reports', methods=['GET'])
+@app.route('/api/reports', methods=['GET'])
 def get_all_reports():
     """
     Handles GET requests to retrieve all reports from the "database".
@@ -82,7 +82,7 @@ def get_all_reports():
         print(f"Error in get_all_reports: {e}")
         return jsonify({"error": "Failed to load reports"}), 500
 
-@app.route('/reports', methods=['POST'])
+@app.route('/api/reports', methods=['POST'])
 def create_report():
     """
     Handles POST requests to create a new report entry.
@@ -209,8 +209,8 @@ def internal_error(error):
 if __name__ == '__main__':
     print("Starting Flask server...")
     print("Available endpoints:")
-    print("- GET /reports - Get all reports")
-    print("- POST /reports - Create new report")
+    print("- GET /api/reports - Get all reports")
+    print("- POST /api/reports - Create new report")
     print("- GET /api/notifications - Get all notifications")
     print("- POST /api/notifications - Create a new notification")
     print("- PUT /api/notifications/<id>/resolve - Resolve a notification")
@@ -218,18 +218,6 @@ if __name__ == '__main__':
     print("- POST /api/process_order - Process a new order and generate alerts")
     print("- GET /api/products - Get all products")
     print("- POST /api/products - Create a new product")
+    print("- POST /api/test-email - Test email configuration")
     print("- GET /health - Health check")
     app.run(debug=True, host='127.0.0.1', port=5000)
-
-
-
-
-
-
-
-
-
-
-
-
-
