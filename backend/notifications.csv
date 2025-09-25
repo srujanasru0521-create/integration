@@ -1,0 +1,45 @@
+id,type,message,source,timestamp,status
+4c2f8a1e-7e45-42af-bd3a-1c8a3f1f8e01,low_stock,SKU PROD-002 (Leather care conditioner 500 ml) is low on stock (<5 units).,stock_system,2025-09-22 12:05:00,resolved
+a8f9e2d1-49be-4f2c-9c18-9a7b21c6f9a2,low_stock,SKU PROD-005 (Leather couches 500 ml) has fallen below threshold.,stock_system,2025-09-22 12:05:30,resolved
+b0a14c5f-10d3-44ce-84c4-62a03a2db25f,out_of_stock,SKU PROD-008 (Saddles Leather cleaner 500 ml) is almost out of stock!,stock_system,2025-09-22 12:06:10,active
+73bac868-9bf5-4bd6-bbb3-f2148b302da4,new_order,New order #fc6494 from Temu for 1 units of PROD-001!,Temu,2025-09-24T16:59:10.151611,resolved
+25d0643a-2fd6-45a3-a31d-fb853300836e,low_stock,"SKU: PROD-001 is low on stock, <5 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T16:59:10.152389,resolved
+63e46a4c-58aa-431e-839c-8be8654bd607,delayed_shipment,Shipment SHP-c37c27 has a missing tracking number.,Autodoc,2025-09-24T16:59:10.152650,resolved
+56e7c7a4-891f-43c7-80ed-b2e232f2794e,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T16:59:10.152880,resolved
+319f5bd4-cec5-4c7f-b1fc-05bd25ccdc62,new_order,New order #6389ab from Temu for 1 units of PROD-001!,Temu,2025-09-24T17:01:32.748459,resolved
+69687b9a-250f-48ab-996d-290db9a522bf,low_stock,"SKU: PROD-001 is low on stock, <5 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T17:01:32.749888,resolved
+33c6af5c-9cda-4c3b-97cf-09272b969901,delayed_shipment,Shipment SHP-aca48d has a missing tracking number.,Autodoc,2025-09-24T17:01:32.750134,resolved
+2f81c0b8-10cc-4ee5-ab03-bb682ea276c1,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T17:01:32.750336,resolved
+c0ae4f5b-c487-4260-b03c-6f5024bdb38b,new_order,New order #e845e7 from Temu for 89 units of PROD-007!,Temu,2025-09-24T17:02:08.159077,resolved
+083d566b-d58b-4ccc-b654-ae6a09f49307,low_stock,URGENT: Temu order for 89 of PROD-007 cannot be fulfilled. Only 6 units left.,Temu,2025-09-24T17:02:08.159332,resolved
+2914c0a5-7dc9-4994-b432-8dc5b819afb3,low_stock,"SKU: PROD-007 is low on stock, <5 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T17:02:08.160195,resolved
+d4f96975-c5fa-4950-b085-97cad8cc2108,delayed_shipment,Shipment SHP-eebee5 has a missing tracking number.,Autodoc,2025-09-24T17:02:08.160420,resolved
+5781647c-5202-4089-9795-628ac98e24a6,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T17:02:08.160627,resolved
+57626844-bebb-446f-9b23-6c6acd147fc2,new_order,New order #9769dd from Temu for 79 units of PROD-009!,Temu,2025-09-24T17:10:02.059841,resolved
+92e4a882-c1e9-4d28-99ef-9f0c1d7acf31,low_stock,URGENT: Temu order for 79 of PROD-009 cannot be fulfilled. Only 10 units left.,Temu,2025-09-24T17:10:02.060452,resolved
+9f0410c2-01c0-49eb-b1a0-1f83934eae40,low_stock,"SKU: PROD-009 is low on stock, <6 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T17:10:02.061376,resolved
+0e755452-1347-4cf8-8d47-5a52762eb23b,delayed_shipment,Shipment SHP-22ae49 has a missing tracking number.,Autodoc,2025-09-24T17:10:02.061594,resolved
+939be553-b68f-4a5e-b22d-3f2da107d17c,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T17:10:02.061776,resolved
+6be84fd2-0c40-47a1-985e-1f5a27207955,new_order,New order #db7d66 from Temu for 1 units of PROD-001!,Temu,2025-09-24T17:40:50.297162,resolved
+6b5b2183-553a-47e5-9400-842710fcc4b6,low_stock,"SKU: PROD-001 is low on stock, <5 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T17:40:50.299144,resolved
+bbd401bf-fb4b-4698-b6ff-99adef402b9a,delayed_shipment,Shipment SHP-20a5f4 has a missing tracking number.,Autodoc,2025-09-24T17:40:50.299486,resolved
+a7c8cd73-b1d1-456d-b57b-99078cc6b289,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T17:40:50.299774,active
+46479152-4011-4ae3-be1b-acaabd1c8e5e,new_order,New order #6b96ac from Temu for 100 units of PROD-007!,Temu,2025-09-24T19:12:23.399273,resolved
+d4b66782-5fce-43a9-811e-922c96400650,low_stock,URGENT: Temu order for 100 of PROD-007 cannot be fulfilled. Only -83 units left.,Temu,2025-09-24T19:12:23.400313,resolved
+dd51769e-7406-483b-8863-9ca8cf6cba5a,low_stock,"SKU: PROD-007 is low on stock, <5 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T19:12:23.401533,resolved
+28697ef3-83cc-44bc-bea8-2ad7f33f862a,delayed_shipment,Shipment SHP-eb25bc has a missing tracking number.,Autodoc,2025-09-24T19:12:23.401711,resolved
+d89de3d4-467c-4b6b-9c32-562317ea4c88,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T19:12:23.401856,active
+a2c33ef7-5539-4094-acd9-e99e40fb1428,new_order,New order #9ba73d from Temu for 50 units of PROD-001!,Temu,2025-09-24T19:13:27.315492,resolved
+64fbffd8-aaad-48fd-93a0-9c22567c247a,low_stock,URGENT: Temu order for 50 of PROD-001 cannot be fulfilled. Only 3 units left.,Temu,2025-09-24T19:13:27.315995,resolved
+4564bbe6-87b0-4aba-bd10-b56e30c5ffc0,low_stock,"SKU: PROD-001 is low on stock, <5 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T19:13:27.316951,resolved
+a13bbfdd-e30f-431e-b140-2838343d3702,delayed_shipment,Shipment SHP-00fdb9 has a missing tracking number.,Autodoc,2025-09-24T19:13:27.317102,resolved
+c6a1d28a-908d-4671-b2b9-fad6f0a41d99,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T19:13:27.317226,active
+97ce8ca8-4b12-4ad0-9e14-6c684c645090,new_order,New order #ad5aa6 from Temu for 1 units of PROD-008!,Temu,2025-09-24T19:45:32.675910,resolved
+0917755d-f7da-4327-8932-977f240796ae,low_stock,"SKU: PROD-008 is low on stock, <5 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T19:45:32.677304,resolved
+3f7ae77f-e6c3-43f4-b0f6-e54657cc4514,delayed_shipment,Shipment SHP-3c39ed has a missing tracking number.,Autodoc,2025-09-24T19:45:32.677548,resolved
+f22288b1-3109-46e0-a2dd-f338c4c06c6c,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T19:45:32.677754,active
+22a39f8d-14c6-4f29-96cb-18adea471ebf,new_order,New order #f364bb from Temu for 50 units of PROD-008!,Temu,2025-09-24T19:46:49.542929,resolved
+8bc0fed7-c2bc-46e4-a8fb-de588132070f,low_stock,URGENT: Temu order for 50 of PROD-008 cannot be fulfilled. Only 0 units left.,Temu,2025-09-24T19:46:49.543168,resolved
+bd5543be-3440-4aa8-a120-c7b9303b3751,low_stock,"SKU: PROD-008 is low on stock, <5 units left. Remaining stock is below threshold.",Amazon US,2025-09-24T19:46:49.543972,resolved
+f571c301-e180-4154-aca4-82e7c286e7b6,delayed_shipment,Shipment SHP-3f32f8 has a missing tracking number.,Autodoc,2025-09-24T19:46:49.544166,resolved
+63bb165e-9862-4344-8847-d4db4e3cb105,deadline,VAT filing deadline for Germany in 5 days!,Germany,2025-09-24T19:46:49.544336,active
